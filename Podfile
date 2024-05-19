@@ -6,6 +6,7 @@ target 'vulnabankIOs' do
   pod 'XMLCoder', '~> 0.9.0'
   pod 'SwiftyRSA', '~> 1.5'
   pod 'CryptoSwift', '~> 1.3'
+  pod 'OpenSSL', '1.0.0'
   pod 'Swinject'
   post_install do |installer|
     installer.pods_project.targets.each do |target|
